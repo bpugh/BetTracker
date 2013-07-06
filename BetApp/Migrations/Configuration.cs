@@ -1,5 +1,3 @@
-using BetApp.Models;
-
 namespace BetApp.Migrations
 {
     using System;
@@ -28,12 +26,6 @@ namespace BetApp.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
-
-            context.Workouts.AddOrUpdate(
-                w => w.WorkoutDate,
-                new Workout{ WorkoutDate = DateTime.Now, Notes = "Ran 3 miles"},
-                new Workout{ WorkoutDate = DateTime.Now, Notes = "Ran 3 miles"}
-            );
         }
     }
 }

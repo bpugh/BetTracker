@@ -17,6 +17,7 @@ namespace BetApp.Models
         {
         }
 
+        public DbSet<Bet> Bets { get; set; }
         public DbSet<Workout> Workouts { get; set; }
     }
 }

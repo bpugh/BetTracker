@@ -201,9 +201,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201306211708232_Initial.cs" />
-    <Compile Include="Migrations\201306211708232_Initial.Designer.cs">
-      <DependentUpon>201306211708232_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201307061936312_InitialCreate.cs" />
+    <Compile Include="Migrations\201307061936312_InitialCreate.Designer.cs">
+      <DependentUpon>201307061936312_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307062313015_modeltest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Migrations\201307062313015_modeltest.Designer.cs">
+      <DependentUpon>201307062313015_modeltest.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
@@ -305,7 +311,9 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -371,8 +379,11 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201306211708232_Initial.resx">
-      <DependentUpon>201306211708232_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201307061936312_InitialCreate.resx">
+      <DependentUpon>201307061936312_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307062313015_modeltest.resx">
+      <DependentUpon>201307062313015_modeltest.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

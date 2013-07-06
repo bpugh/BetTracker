@@ -11,7 +11,7 @@ namespace BetApp.Models
     public class UsersContext : DbContext
     {
         public UsersContext()
-            : base("DefaultConnection")
+            : base("BetAppContext")
         {
         }
 
@@ -25,6 +25,7 @@ namespace BetApp.Models
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int UserId { get; set; }
         public string UserName { get; set; }
+        public string UserEmail { get; set; }
     }
 
     public class RegisterExternalLoginModel
