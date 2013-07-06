@@ -208,6 +208,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\BetAppContext.cs" />
+    <Compile Include="Models\Bet.cs" />
     <Compile Include="Models\HomeInputModel.cs" />
     <Compile Include="Models\Workouts.cs" />
     <Compile Include="NavigationRoutes\INavigationRouteFilter.cs" />
